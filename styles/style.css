@@ -114,6 +114,9 @@
 .digits {
   margin: 100px auto;
 }
+.list {
+  list-style: none;
+}
 .section-title {
   width: 60%;
   margin: 0 auto;
