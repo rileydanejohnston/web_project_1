@@ -5,6 +5,7 @@
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
+
 .header {
   height: 100vh;
   min-height: 600px;
@@ -14,6 +15,16 @@
   display: flex;
   align-items: center;
 }
+.logo {
+  width: 154px;
+  height: 31px;
+}
+.logo_place_header {
+  position: absolute;
+  top: 30px;
+  left: 64px;
+  z-index: 2;
+}
 .header__title {
   width: 760px;
   margin-left: 64px;
@@ -21,7 +32,6 @@
   line-height: 96px;
   font-size: 102px;
   font-weight: bold;
-
 }
 .header__subtitle {
   /* Width is estimated. It was not given */
@@ -56,32 +66,19 @@
 }
 
 
-
-.logo {
-  width: 154px;
-  height: 31px;
-}
-.logo_place_header {
-  position: absolute;
-  top: 30px;
-  left: 64px;
-  z-index: 2;
-}
-
-
-
-
 .description {
   display: flex;
   justify-content: center;
   margin-top: 100px;
-  margin-bottom: 100px;
 }
 .two-columns {
   display: flex;
   justify-content: space-between;
   width: 80%;
   min-width: 784px;
+}
+.two-columns_space-bottom {
+  margin-bottom: 30px;
 }
 .two-columns__brief {
   width: 175px;
@@ -105,14 +102,12 @@
   font-size: 24px;
   font-weight: bold;
 }
-.two-columns_space-bottom {
-  margin-bottom: 30px;
-}
+
 
 
 
 .digits {
-  margin: 100px 0 100px 0;   /* changed from margin: 100px auto; */
+  margin: 100px 0 100px 0;
 }
 .section-title {
   width: 60%;
@@ -162,10 +157,6 @@
 }
 
 
-
-
-
-
 .feynman {
   background-color: #F2F2F2;
   position: relative;
@@ -209,9 +200,6 @@
 }
 
 
-
-
-
 .kaufman {
   background-color: #000000;
   color: white;
@@ -242,12 +230,26 @@
   color: white;
   display: flex;
 }
+.column-link {
+  text-decoration: none;
+  color: white;
+}
+.column-heading {
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0;
+}
+.logo_place_footer {
+  width: 183px;
+  height: 35px;
+}
 .footer__columns {
   display: flex;
   min-height: 350px;
   flex-basis: 711px;
-  margin-top: 60px;
-  margin-bottom: 40px;
+  padding-top: 60px;
+  padding-bottom: 40px;
 }
 .footer__columns-left{
   margin-left: auto;
@@ -259,10 +261,6 @@
   display: flex;
   flex-direction: column;
   justify-content:space-between;
-}
-.logo_place_footer {
-  width: 183px;
-  height: 35px;
 }
 .footer__author {
   margin-top: 18px;
@@ -278,16 +276,6 @@
   font-weight: normal;
   padding: 0;
   margin-top: 20px;
-}
-.column-link {
-  text-decoration: none;
-  color: white;
-}
-.column-heading {
-  line-height: 30px;
-  font-size: 18px;
-  font-weight: bold;
-  margin: 0;
 }
 .footer__column_content_about {
   margin: 0 auto;
