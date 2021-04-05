@@ -42,16 +42,16 @@
   height: 608px;
   width: 756px;
   position: absolute;
-  bottom: 0px;
-  right: 0px;
+  bottom: 0;
+  right: 0;
   z-index: 1;
 }
 .header__square-pic {
   height: 568px;
   width: 568px;
   position: absolute;
-  top: 64;
-  right: 0px;
+  top: 64px;
+  right: 0;
   background-color: #2F80ED;
 }
 
@@ -112,7 +112,7 @@
 
 
 .digits {
-  margin: 100px auto;
+  margin: 100px 0 100px 0;   /* changed from margin: 100px auto; */
 }
 .section-title {
   width: 60%;
@@ -160,14 +160,11 @@
 .table__text_space-above {
   margin-top: 20px;
 }
-/*
-.table__cell_theme_dark {
-  width: 200px;
-  color: white;
-  margin-right: 0;
-  margin-top: 80px;
-}
-*/
+
+
+
+
+
 
 .feynman {
   background-color: #F2F2F2;
@@ -215,10 +212,41 @@
 
 
 
-/* including elements with key-value modifiers */
+.kaufman {
+  background-color: #000000;
+  color: white;
+  position: relative;
+  z-index: -2;
+  padding-top: 90px;
+  padding-bottom: 90px;
+  overflow: hidden;
+}
 .table__cell_theme_dark {
   width: 200px;
-  color: white;
   margin-right: 0;
   margin-top: 80px;
+}
+.kaufman__triangle {
+  width: 660px;
+  height: 636px;
+  position: absolute;
+  top: 0;
+  right: -124px;
+  z-index: -1;
+}
+
+.footer {
+  background-color: #000000;
+  color: white;
+  display: flex;
+}
+.footer__columns {
+  border: 1px solid red;
+  flex-basis: 711px;
+}
+.footer__column_content_about {
+  border: 1px solid red;
+}
+.footer__column_content_social {
+  border: 1px solid red;
 }
