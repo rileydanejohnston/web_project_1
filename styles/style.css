@@ -26,7 +26,8 @@
   z-index: 2;
 }
 .header__title {
-  width: 760px;
+  max-width: 760px;
+  margin: 0;
   margin-left: 64px;
   z-index: 2;
   line-height: 96px;
@@ -34,8 +35,8 @@
   font-weight: bold;
 }
 .header__subtitle {
-  /* Width is estimated. It was not given */
-  width: 380px;
+  max-width: 380px;
+  margin: 0;
   position: absolute;
   bottom: 30px;
   left: 64px;
@@ -45,8 +46,8 @@
   font-weight: normal;
 }
 .header__link {
-  /* Not sure how to add the arrow for "learn more" link. */
   color: #2F80ED;
+  text-decoration: none;
 }
 .header__main-illustration {
   height: 608px;
