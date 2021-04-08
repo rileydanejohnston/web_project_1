@@ -159,26 +159,25 @@
 .feynman {
   background-color: #F2F2F2;
   position: relative;
-  height: 790px;
+  min-height: 790px;
   padding-top: 100px;
-  z-index: -2;
+  z-index: 1;
 }
 .feynman__title {
-  width: 648px;
+  max-width: 775px;
   margin: auto;
   line-height: 1.15;
   font-size: 120px;
   font-weight: bold;
+  text-align: center;
 }
 .feynman__subtitle {
-  margin: auto;
+  margin: 0 auto;
+  margin-top: 70px;
   text-align: center;
   line-height: 51px;
   font-size: 36px;
   font-weight: normal;
-}
-.feynman__subtitle_margin {
-  margin-top: 70px;
 }
 .feynman__link {
   color: #2F80ED;
@@ -188,6 +187,7 @@
   line-height: 51px;
   font-size: 36px;
   font-weight: normal;
+  text-decoration: none;
 }
 .feynman__image {
   width: 867px;
