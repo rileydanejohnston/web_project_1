@@ -242,19 +242,16 @@
 }
 .footer__columns {
   display: flex;
-  margin: 0 auto;
-}
-.footer__columns_content_copyright {
-  flex-basis: 711px;
-  flex-direction: column;
-  justify-content:space-between;
   min-height: 250px;
 }
-.footer__columns_content_about {
+.footer__column {
+  display: flex;
   flex-direction: column;
+  margin: 0 auto;
 }
-.footer__columns_content_social {
-  flex-direction: column;
+.footer__column_content_copyright {
+  flex-basis: 711px;
+  justify-content: space-between;
 }
 .logo_place_footer {
   width: 183px;
