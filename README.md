@@ -1,5 +1,8 @@
 # Learning How to Learn
 
+## URL
+[Learning How to Learn](https://rileydanejohnston.github.io/web_project_1/)
+
 ## About
 _Learning How to Learn is a compilation of effectively learning techniques. HTML is used to display information, links to other resources and to embedded youtube content. CSS is used for animations, transitions and styling of the page._
 
